@@ -28,17 +28,16 @@ body {
     line-height: 1.5rem;
   }
   &__button {
-
-     &--orange {
-        width: 9.5rem;
-        margin-top: 0.8rem;
-        margin-left: 3rem;
-        padding: 1rem 1rem;
-        border-radius: 2rem;
-        border: none;
-        color: $Bright-orange;
-        font-size: 1rem;
-        font-weight: 700;
+    &--orange {
+      width: 9.5rem;
+      margin-top: 0.8rem;
+      margin-left: 3rem;
+      padding: 1rem 1rem;
+      border-radius: 2rem;
+      border: none;
+      color: $Bright-orange;
+      font-size: 1rem;
+      font-weight: 700;
     }
 
     &--blue {
@@ -53,18 +52,17 @@ body {
       font-weight: 700;
     }
 
-    &--green{
-        width: 9.5rem;
-        margin-top: 0.8rem;
-        margin-left: 3rem;
-        padding: 1rem 1rem;
-        border-radius: 2rem;
-        border: none;
-        color: $Very-dark-cyan;
-        font-size: 1rem;
-        font-weight: 700;
+    &--green {
+      width: 9.5rem;
+      margin-top: 0.8rem;
+      margin-left: 3rem;
+      padding: 1rem 1rem;
+      border-radius: 2rem;
+      border: none;
+      color: $Very-dark-cyan;
+      font-size: 1rem;
+      font-weight: 700;
     }
-   
   }
   &__orange {
     background-color: $Bright-orange;
@@ -78,5 +76,35 @@ body {
   &__green {
     background-color: $Very-dark-cyan;
     height: 27.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .section {
+    margin-top: 5rem;
+    max-width: 58rem;
+    display: flex;
+
+    &__orange {
+      height: 31.5rem;
+    }
+    &__blue {
+      height: 31.5rem;
+    }
+    &__green {
+      height: 31.5rem;
+    }
+
+    &__button {
+      &--orange {
+        margin-top: 4.5rem;
+      }
+      &--blue {
+        margin-top: 4.5rem;
+      }
+      &--green {
+        margin-top: 4.5rem;
+      }
+    }
   }
 }

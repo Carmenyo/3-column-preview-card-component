@@ -1,0 +1,26 @@
+@import "variables";
+
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+}
+
+
+.section {
+    padding: 5rem 1rem;
+    &__orange{
+        background-color: $Bright-orange;
+        height: 27.5rem;
+    }
+
+    &__blue{
+        background-color: $Dark-cyan;
+        height: 27.5rem;
+    }
+    &__green{
+        background-color: $Very-dark-cyan;
+        height: 27.5rem;
+    }
+
+}

@@ -1,3 +1,28 @@
+@media (min-width: 768px) {
+  .section {
+    margin-top: 5rem;
+    max-width: 58rem;
+    display: flex;
+  }
+  .section__orange {
+    height: 31.5rem;
+  }
+  .section__blue {
+    height: 31.5rem;
+  }
+  .section__green {
+    height: 31.5rem;
+  }
+  .section__button--orange {
+    margin-top: 4.5rem;
+  }
+  .section__button--blue {
+    margin-top: 4.5rem;
+  }
+  .section__button--green {
+    margin-top: 4.5rem;
+  }
+}
 body {
   height: 100vh;
   display: flex;
@@ -87,30 +112,4 @@ body {
 .section__green {
   background-color: hsl(179, 100%, 13%);
   height: 27.5rem;
-}
-
-@media (min-width: 768px) {
-  .section {
-    margin-top: 5rem;
-    max-width: 58rem;
-    display: flex;
-  }
-  .section__orange {
-    height: 31.5rem;
-  }
-  .section__blue {
-    height: 31.5rem;
-  }
-  .section__green {
-    height: 31.5rem;
-  }
-  .section__button--orange {
-    margin-top: 4.5rem;
-  }
-  .section__button--blue {
-    margin-top: 4.5rem;
-  }
-  .section__button--green {
-    margin-top: 4.5rem;
-  }
 }/*# sourceMappingURL=main.css.map */

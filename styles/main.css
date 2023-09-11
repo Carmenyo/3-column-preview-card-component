@@ -35,6 +35,12 @@ body {
   color: hsl(31, 77%, 52%);
   font-size: 1rem;
   font-weight: 700;
+  background-color: hsl(0, 0%, 95%);
+}
+.section__button--orange:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: solid 2px hsl(0, 0%, 95%);
 }
 .section__button--blue {
   width: 9.5rem;
@@ -46,6 +52,12 @@ body {
   color: hsl(184, 100%, 22%);
   font-size: 1rem;
   font-weight: 700;
+  background-color: hsl(0, 0%, 95%);
+}
+.section__button--blue:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: solid 2px hsl(0, 0%, 95%);
 }
 .section__button--green {
   width: 9.5rem;
@@ -57,6 +69,12 @@ body {
   color: hsl(179, 100%, 13%);
   font-size: 1rem;
   font-weight: 700;
+  background-color: hsl(0, 0%, 95%);
+}
+.section__button--green:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: solid 2px hsl(0, 0%, 95%);
 }
 .section__orange {
   background-color: hsl(31, 77%, 52%);

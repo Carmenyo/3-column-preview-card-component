@@ -38,6 +38,12 @@ body {
       color: $Bright-orange;
       font-size: 1rem;
       font-weight: 700;
+      background-color: $Very-light-gray-background-headings-buttons;
+    }
+    &--orange:hover {
+      background-color: transparent;
+      color: $Very-light-gray-background-headings-buttons;
+      border: solid 2px $Very-light-gray-background-headings-buttons;
     }
 
     &--blue {
@@ -50,6 +56,12 @@ body {
       color: $Dark-cyan;
       font-size: 1rem;
       font-weight: 700;
+      background-color: $Very-light-gray-background-headings-buttons;
+    }
+    &--blue:hover{
+      background-color: transparent;
+      color: $Very-light-gray-background-headings-buttons;
+      border: solid 2px $Very-light-gray-background-headings-buttons;
     }
 
     &--green {
@@ -62,8 +74,15 @@ body {
       color: $Very-dark-cyan;
       font-size: 1rem;
       font-weight: 700;
+      background-color: $Very-light-gray-background-headings-buttons;
+    }
+    &--green:hover {
+      background-color: transparent;
+      color: $Very-light-gray-background-headings-buttons;
+      border: solid 2px $Very-light-gray-background-headings-buttons;
     }
   }
+
   &__orange {
     background-color: $Bright-orange;
     height: 27.5rem;

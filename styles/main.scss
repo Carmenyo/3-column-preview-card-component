@@ -1,26 +1,82 @@
 @import "variables";
 
-body{
-height: 100vh;
-display: flex;
-justify-content: center;
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
-
 .section {
-    padding: 5rem 1rem;
-    &__orange{
-        background-color: $Bright-orange;
-        height: 27.5rem;
+  padding: 5rem 1rem;
+  color: $Transparent-white-paragraphs;
+
+  &__image {
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+  &__title {
+    font-family: $Font-family1;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    text-transform: uppercase;
+  }
+  &__paragraph {
+    margin-top: -0.5rem;
+    padding: 0 3.1rem;
+    font-family: $Font-family2;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+  &__button {
+
+     &--orange {
+        width: 9.5rem;
+        margin-top: 0.8rem;
+        margin-left: 3rem;
+        padding: 1rem 1rem;
+        border-radius: 2rem;
+        border: none;
+        color: $Bright-orange;
+        font-size: 1rem;
+        font-weight: 700;
     }
 
-    &__blue{
-        background-color: $Dark-cyan;
-        height: 27.5rem;
-    }
-    &__green{
-        background-color: $Very-dark-cyan;
-        height: 27.5rem;
+    &--blue {
+      width: 9.5rem;
+      margin-top: 0.8rem;
+      margin-left: 3rem;
+      padding: 1rem 1rem;
+      border-radius: 2rem;
+      border: none;
+      color: $Dark-cyan;
+      font-size: 1rem;
+      font-weight: 700;
     }
 
+    &--green{
+        width: 9.5rem;
+        margin-top: 0.8rem;
+        margin-left: 3rem;
+        padding: 1rem 1rem;
+        border-radius: 2rem;
+        border: none;
+        color: $Very-dark-cyan;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+   
+  }
+  &__orange {
+    background-color: $Bright-orange;
+    height: 27.5rem;
+  }
+
+  &__blue {
+    background-color: $Dark-cyan;
+    height: 27.5rem;
+  }
+  &__green {
+    background-color: $Very-dark-cyan;
+    height: 27.5rem;
+  }
 }

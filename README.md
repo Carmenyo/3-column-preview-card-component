@@ -1,8 +1,5 @@
 # Frontend Mentor - 3-column preview card component
-
-![Preview of the Perfect Pixel Challenge design](./images/FM%20desktop.png)
-
-![Preview of the Perfect Pixel Challenge design](./images/mobile.png)
+![Preview of the Perfect Pixel Challenge design](./images/Neutral%20Minimal%20Shadow%20Photographer%20Frame%20Mockup%20Pinterest%20Pin.png)
 
 ## Project Description
 

@@ -31,7 +31,7 @@ body {
   &__button {
     &--orange {
       width: 9.5rem;
-      margin-top: 0.8rem;
+      margin-top: 4.8rem;
       margin-left: 3rem;
       padding: 1rem 1rem;
       border-radius: 2rem;
@@ -49,7 +49,7 @@ body {
 
     &--blue {
       width: 9.5rem;
-      margin-top: 0.8rem;
+      margin-top: 4.8rem;
       margin-left: 3rem;
       padding: 1rem 1rem;
       border-radius: 2rem;
@@ -67,7 +67,7 @@ body {
 
     &--green {
       width: 9.5rem;
-      margin-top: 0.8rem;
+      margin-top: 4.8rem;
       margin-left: 3rem;
       padding: 1rem 1rem;
       border-radius: 2rem;
@@ -86,16 +86,18 @@ body {
 
   &__orange {
     background-color: $Bright-orange;
-    height: 27.5rem;
+    height: 31.5rem;
+    border-radius: 1rem 0 0 1rem;
   }
 
   &__blue {
     background-color: $Dark-cyan;
-    height: 27.5rem;
+    height: 31.5rem;
   }
   &__green {
     background-color: $Very-dark-cyan;
-    height: 27.5rem;
+    height: 31.5rem;
+    border-radius: 0 1rem 1rem 0;
   }
 }
 
